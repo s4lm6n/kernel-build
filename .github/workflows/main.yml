@@ -38,7 +38,7 @@ jobs:
           make -j$(nproc) \
             ARCH=arm64 \
             CROSS_COMPILE=aarch64-linux-gnu- \
-            LOCALVERSION="-sdm845" \
+            LOCALVERSION="" \
             bindeb-pkg
 
       - name: Upload Mobian Kernel Packages
