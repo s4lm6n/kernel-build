@@ -19,8 +19,8 @@ jobs:
 
       - name: Clone kernel
         run: |
-          git clone --depth 1 --branch sdm845-linus \
-            https://codeberg.org/sdm845/linux.git
+          git clone --depth 1 --branch pocof1-magi \
+            https://codeberg.org/magdesign/linux.git
 
       - name: Build Debian Packages for Mobian
         run: |
