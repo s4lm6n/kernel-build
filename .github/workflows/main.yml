@@ -28,7 +28,7 @@ jobs:
           
           # 1. Generate core Snapdragon configurations
           make ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- \
-            defconfig sdm845.config
+            pocof1_magi_defconfig
 
           # 2. Prevent the build system from appending tracking hashes (+g559dcc2...)
           scripts/config --disable LOCALVERSION_AUTO
